@@ -1,0 +1,60 @@
+/* ------------------------- TITULO ------------------------- */
+h3 {
+    /* margin: 20px; */
+    font-family: "Paytone One";
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+h3 span {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    text-align: center;
+    display: block;
+    margin: 11px 0 17px 0;
+    font-size: 60px;
+    line-height: 80px;
+    color: #e63946;
+    text-shadow: 0 13.36px 8.896px #d8aaae, 0 -2px 1px #fff;
+    letter-spacing: -4px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.about {
+    background: white;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+}
+
+/* ------------------------- MISION, VISION E HISTORIA ------------------------- */
+.contenedor2 {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor2 img {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.contenedor2 p {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contenedor2 p:hover {
+
+    box-shadow: #e63946 0px 0px 0px 3px,
+        #f1faee 0px 0px 0px 6px,
+        #a8dadc 0px 0px 0px 9px,
+        #457b9d 0px 0px 0px 12px,
+        #1d3557 0px 0px 0px 15px;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+/* ------------------------------- TITULO ------------------------------- */
+.adoptarT {
+    font-size: 10rem;
+    text-align: center;
+    height: 40vh;
+    line-height: 30vh;
+    color: #eae4e9;
+    background: #fdfdfd;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #ffca3a,
+        10px 10px 0px #8ac926,
+        15px 15px 0px #1982c4,
+        20px 20px 0px #6a4c93,
+        25px 25px 0px #ff595e;
+    animation: aparecer 2.5s linear forwards;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ------------------------------- TEXTO ------------------------------- */
+.infoA {
+    font-size: 30px;
+    background-color: hsl(135, 35%, 45%);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    padding: 30px;
+}
